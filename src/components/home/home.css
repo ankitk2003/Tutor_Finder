@@ -1,0 +1,91 @@
+.body-div{
+    width: 100%; /* Adjust width as needed */
+    height: 800px; /* Adjust height as needed */
+    background-image: url('images/home_background.jpg'); /* Path to your image */
+    background-size: cover; /* Adjust background size property as needed */
+    background-position: center; /* Adjust background position property as needed */
+    /* Additional styles if needed */
+}
+input{
+   height: 25px;
+   width: 300px;
+   border-radius: 5px;
+}
+.child-div{
+  margin-top:0;
+}
+.card-div {
+    display: flex;
+    justify-content: space-around; /* To evenly distribute the cards along the main axis */
+    flex-wrap: wrap; /* Allow the cards to wrap to the next row if necessary */
+  }
+  
+  .card-1 {
+    width: 30%; /* Adjust the width of each card as per your design */
+    margin: 10px; /* Add some margin between the cards */
+    padding: 20px; /* Add padding to the cards */
+    background-color: #f0f0f0; /* Example background color */
+  }
+  .card-1:hover{
+    background-color: #f8f4f49b; /* Example background color */
+
+  }
+  .div-3{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    /* flex-wrap: wrap; Allow the cards to wrap to the next row if necessary */
+  }
+
+  .para-div{
+    left: 0;
+    height: 240px;
+    width: 800px;
+  }
+  .icon-class{
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+  button{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #4CAF50; /* Green border */
+  color: #4CAF50; /* Green text */
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  button:hover{
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+  }
+  button:active{
+    transform: translateY(1px);
+  }
+  .div-4{
+    width: 100%; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    background-image: url('images/books_background.jpg'); /* Path to your image */
+    background-size: cover; /* Adjust background size property as needed */
+    background-position: center; /* Adjust background position property as needed */
+    /* Additional styles if needed */
+    display: flex;
+}
+.para-div-2{
+margin-left: 800px;
+font-weight: bold;
+width: 500px;
+height: 500px;
+}
+.para-div-2 h1{
+  color: rgb(30, 88, 139);
+  margin-top: 100px;
+}
+.para-div-2 p{
+  color: rgba(11, 11, 10, 0.832);
+}

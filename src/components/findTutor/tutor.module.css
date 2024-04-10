@@ -1,0 +1,46 @@
+.card{
+   /* border: 2px solid rgb(63, 44, 44); */
+   display: flex;
+   margin-top: 20px;
+
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+}
+img{
+
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(74, 65, 65, 0.5);
+
+}
+.dataDiv{
+    margin-left: 300px;
+}
+.button1{
+    margin-top: 100px;
+    background-color: pink;
+    color: rgb(9, 8, 8);
+}
+.card{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   border-radius: 20px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    background-color: rgb(250, 244, 237);
+}
+.dropDownDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(241, 241, 233); */
+    height: 100px;
+    box-shadow: 2px 2px 4px 4px rgba(213, 192, 192, 0.5);
+
+}

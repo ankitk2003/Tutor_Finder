@@ -1,0 +1,21 @@
+.mainDiv{
+    background-color: rgb(224, 239, 224);
+    height: 500px;
+    width: 800px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 4px 4px rgba(167, 203, 167, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.paraDiv h2{
+    margin-top: 50px;
+}
+.paraDiv p:hover{
+  color: rgb(76, 72, 67);
+}
+.paraDiv{
+  margin-top: 50px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
